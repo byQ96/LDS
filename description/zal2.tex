@@ -1,0 +1,150 @@
+\documentclass[12pt]{article}
+
+\usepackage{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{indentfirst}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{amssymb}
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=3cm]{geometry}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+\usepackage{pgfplots}
+%\pagestyle{empty}
+\usepackage{listings}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{natbib}
+\usepackage{rotating}
+\usepackage{float}
+
+\title{\textbf{Za³o¿enia projektowe stacji do wykrywania wy³adowañ atmosferycznych}\\KN EKSA}
+\author{Rafa³ Ró¿ycki \\ Mateusz Otto}
+\date{\today}
+
+\begin{document}
+\maketitle
+\newpage
+
+\section{Opis projektu}
+Celem projektu jest konstrukcja niskobud¿etowego uniwersalnego odbiornika fal krótkich o zakresie czêstotliwoœci 3 kHz – 300 kHz. Wy³adowanie atmosferyczne generuje fale elektromagnetyczne w bardzo szerokim zakresie czêstotliwoœci. S¹ to impulsy, które mog¹ zostaæ odebrane ponad 1000 km od wyst¹pienia wy³adowania. Szczegó³owy teoretyczny opis zjawiska mo¿na znaleŸæ np. na Wikipedii. Dla czêstotliwoœci ni¿szych ni¿ 100 kHz impulsy wyraŸnie wybijaj¹ siê ponad szum atmosferyczny, co pozwala z ³atwoœci¹ odebraæ sygna³. Odbiornik bêdzie posiadaæ dwa wejœcia na anteny ferrytowe typu H-field, co pozwoli okreœliæ przybli¿on¹ odleg³oœæ i kierunek odebranego sygna³u. Anteny zostan¹ skonstruowane przez wykonawców projektu, ich parametry zostan¹ eksperymentalnie wyznaczone. Po pomyœlnym zainstalowaniu odbiornika nastêpnym krokiem bêdzie konstrukcja kilku nastêpnych, co pozwoli na dok³adniejsze okreœlenie lokalizacji wyst¹pienia wy³adowania za pomoc¹ porównañ czasów odebrania sygna³u (Time of arrival method). Dane z odbiornika bêd¹ przesy³ane na serwer w celu ich analizy. Projekt zak³ada ukoñczenie prac nad jednym odbiornikiem i uruchomienie go przed koñcem roku 2017. Jednym z za³o¿eñ jest ³atwe wprowadzanie zmian i dodatkowych modu³ów do odbiornika tak, aby jego u¿ytkownicy mogli dalej go rozwijaæ oraz mieli mo¿liwoœæ prowadzenia badañ. Planowane jest udostêpnienie ukoñczonej stacji do u¿ytku jako projekt wykonany w kole naukowym.
+
+\section{Plan pracy}
+Szczegó³owy harmonogram pracy nie jest na dzieñ dzisiejszy znany. Terminy poszczególnych zadania bêd¹ wyznaczane w trakcie realizowania projektu, jako ¿e ma on byæ wykonany do koñca roku. Pod uwagê nale¿y braæ ewentualne poprawki.
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|}
+\hline 
+\multicolumn{2}{|c|}{\large{Wstêpne przygotowania}} \\
+\hline 
+z1 & Zgromadzenie podstawowych danych na temat badanego zjawiska. \\ 
+\hline 
+z2 & Schemat ideowy dzia³ania ca³ego systemu. Okreœlenie parametrów urz¹dzeñ. \\ 
+\hline 
+z3 & Szczegó³owy projekt oprogramowania stacji meteorologicznej. \\ 
+\hline 
+z4 & Schemat elektroniczny i projekt p³ytki. \\ 
+\hline 
+z5 & Projekt konstrukcyjny stacji meteorologicznej. \\ 
+\hline 
+z6 & Tworzenie konstrukcji. \\
+\hline 
+z7 & Wytrawianie p³ytki. \\
+\hline 
+z8 & Monta¿ elementów elektronicznych na p³ytce. \\
+\hline 
+z9 & Oprogramowanie czujnika. \\
+\hline
+z10 & Monta¿ konstrukcji stacji. \\
+\hline
+z11 & Testy oprogramowania, testy urz¹dzenia. \\
+\hline
+z12 & Utworzenie strony internetowej i akwizycja danych. \\
+\hline
+
+\end{tabular}
+\end{table}
+
+\begin{sidewaysfigure}[h]
+\centering
+\includegraphics[scale=0.4]{zad1.png}
+\caption{Wizualizacja podzia³u zadañ}
+\end{sidewaysfigure}
+
+\newpage
+
+\section{Bud¿et}
+Projekt bêdzie wymaga³ zakupu nastêpuj¹cych czêœci:
+\begin{itemize}
+\item Rdzenie ferrytowe
+\item Elementy konstrukcyjne do anteny: kabel antenowy, k¹towniki, teowniki, ceowniki
+\item Nadajnik GPS
+\item Laminat do wytrawiania
+\item Akcesoria lutownicze
+\item Czêœci elektroniczne: wzmacniacze, elementy RLC, przetworniki ADC, mikroprocesory
+\item Filament do drukarki 3D
+\item Modu³ ³¹cznoœci sieciowej
+\item Host serwera
+\end{itemize}
+
+Elementy zostan¹ zakupione przez cz³onków projektu.
+
+\section{Przydzia³ zadañ}
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|}
+\hline 
+Osoba  & Zadania \\ 
+\hline 
+Mateusz Otto & z5, z6, z10 \\ 
+\hline 
+Micha³ Wieczorek & z4, z5, z6, z10 \\ 
+\hline 
+Rafa³ Ró¿ycki & z4, z7, z8  \\ 
+\hline 
+Amadeusz Wach & z9, z12 \\ 
+\hline 
+Wspólnie & z1, z2, z3, z11 \\
+\hline
+\end{tabular} 
+\caption{Podzia³ zadañ}
+\end{table}
+
+\subsection{Zespó³ projektowy}
+\paragraph{Micha³ Wieczorek} - \textbf{lider}, odpowiedzialny za:
+\begin{itemize}
+\item Projekt konstrukcyjny stacji meteorologicznej
+\item Tworzenie konstrukcji
+\item Monta¿ konstrukcji stacji
+\item Schemat elektroniczny i projekt p³ytki
+\end{itemize}
+\paragraph{Mateusz Otto} odpowiedzialny za: 
+\begin{itemize}
+\item Projekt konstrukcyjny stacji meteorologicznej
+\item Tworzenie konstrukcji
+\item Monta¿ konstrukcji stacji
+\end{itemize}
+\paragraph{Rafa³ Ró¿ycki} odpowiedzialny za: 
+\begin{itemize}
+\item Schemat elektroniczny i projekt p³ytki
+\item Wytrawianie p³ytki
+\item Monta¿ elementów elektronicznych na p³ytce
+\end{itemize}
+\paragraph{Amadeusz Wach} odpowiedzialny za:
+\begin{itemize}
+\item Oprogramowanie czujnika
+\item Utworzenie strony internetowej i akwizycja danych
+\end{itemize}
+
+\section{Zarz¹dzanie projektem}
+Liderem projektu bêdzie Micha³ Wieczorek - pomys³odawca i inicjator projektu. Cz³onkowie projektu s¹ zobowi¹zani do realizowania wyznaczonych im zadañ oraz systematycznej pracy. Jakiekolwiek napotkane problemy bêd¹ rozwi¹zywane wspólnie. Kontrola projektu bêdzie siê odbywa³a przez githuba.
+ 
+
+\end{document}
