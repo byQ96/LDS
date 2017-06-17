@@ -24,8 +24,8 @@
 \usepackage{rotating}
 \usepackage{float}
 
-\title{\textbf{Założenia projektowe stacji do wykrywania wyładowań atmosferycznych}\\KN EKSA}
-\author{Rafał Różycki \\ Mateusz Otto}
+\title{\textbf{Sprawozdanie - stacja do wykrywania wyładowań atmosferycznych}\\KN EKSA}
+\author{Michał Wieczorek {226284}\\ Amadeusz Wach {226379}\\ Rafał Różycki {226367} \\ Mateusz Otto {226312}}
 \date{\today}
 
 \begin{document}
@@ -35,110 +35,30 @@
 \section{Opis projektu}
 Celem projektu jest konstrukcja niskobudżetowego uniwersalnego odbiornika fal krótkich o zakresie częstotliwości 3 kHz - 300 kHz. Wyładowanie atmosferyczne generuje fale elektromagnetyczne w bardzo szerokim zakresie częstotliwości. Są to impulsy, które mogą zostać odebrane ponad 1000 km od wystąpienia wyładowania. Szczegółowy teoretyczny opis zjawiska można znaleźć np. na Wikipedii. Dla częstotliwości niższych niż 100 kHz impulsy wyraźnie wybijają się ponad szum atmosferyczny, co pozwala z łatwością odebrać sygnał. Odbiornik będzie posiadać dwa wejścia na anteny ferrytowe typu H-field, co pozwoli określić przybliżoną odległość i kierunek odebranego sygnału. Anteny zostaną skonstruowane przez wykonawców projektu, ich parametry zostaną eksperymentalnie wyznaczone. Po pomyślnym zainstalowaniu odbiornika następnym krokiem będzie konstrukcja kilku następnych, co pozwoli na dokładniejsze określenie lokalizacji wystąpienia wyładowania za pomocą porównań czasów odebrania sygnału (Time of arrival method). Dane z odbiornika będą przesyłane na serwer w celu ich analizy. Projekt zakłada ukończenie prac nad jednym odbiornikiem i uruchomienie go przed końcem roku 2017. Jednym z założeń jest łatwe wprowadzanie zmian i dodatkowych modułów do odbiornika tak, aby jego użytkownicy mogli dalej go rozwijać oraz mieli możliwość prowadzenia badań. Planowane jest udostępnienie ukończonej stacji do użytku jako projekt wykonany w kole naukowym.
 
-\section{Plan pracy}
-Szczegółowy harmonogram pracy nie jest na dzień dzisiejszy znany. Terminy poszczególnych zadania będą wyznaczane w trakcie realizowania projektu, jako że ma on być wykonany do końca roku. Pod uwagę należy brać ewentualne poprawki.
+\section{Zrealizowane zadania i testy}
+0. Symulacja wzmacniacza w programie LTspice. Charakterystyka częstotliwościowa.\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=1\textwidth]{figures/ampl_faz.png}
+\caption{Charakterystyka amplitudowa i fazowa układu}
+\end{center}
+\end{figure}
+1. Prototyp wzmacniacza na płytce prototypowej\\
+2. Budowa anten kierunkowych\\
+3. Testowanie czujnika [generator + oscyloskop]\\
+4. Polutowanie prototypowego wzmacniacza z poprawkami\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{figures/plytka.png}
+\caption{Będzie inne zdjęcie}
+\end{center}
+\end{figure}
+5. Testy czujnika [przesyłanie sygnału przez indukcję]\\
+6. Testy czujnika w pobliżu burzy, reakcja na wyładowania\\
+7. Próbkowanie sygnały analogowego. Płytka nucleo, schemat + testy (STMStudio).\\
 
-\begin{table}[!h]
-\centering
-\begin{tabular}{|c|c|}
-\hline 
-\multicolumn{2}{|c|}{\large{Wstępne przygotowania}} \\
-\hline 
-z1 & Zgromadzenie podstawowych danych na temat badanego zjawiska. \\ 
-\hline 
-z2 & Schemat ideowy działania całego systemu. Określenie parametrów urządzeń. \\ 
-\hline 
-z3 & Szczegółowy projekt oprogramowania stacji meteorologicznej. \\ 
-\hline 
-z4 & Schemat elektroniczny i projekt płytki. \\ 
-\hline 
-z5 & Projekt konstrukcyjny stacji meteorologicznej. \\ 
-\hline 
-z6 & Tworzenie konstrukcji. \\
-\hline 
-z7 & Wytrawianie płytki. \\
-\hline 
-z8 & Montaż elementów elektronicznych na płytce. \\
-\hline 
-z9 & Oprogramowanie czujnika. \\
-\hline
-z10 & Montaż konstrukcji stacji. \\
-\hline
-z11 & Testy oprogramowania, testy urządzenia. \\
-\hline
-z12 & Utworzenie strony internetowej i akwizycja danych. \\
-\hline
 
-\end{tabular}
-\end{table}
-
-\newpage
-
-\section{Budżet}
-Projekt będzie wymagał zakupu następujących części:
-\begin{itemize}
-\item Rdzenie ferrytowe
-\item Elementy konstrukcyjne do anteny: kabel antenowy, kątowniki, teowniki, ceowniki
-\item Nadajnik GPS
-\item Laminat do wytrawiania
-\item Akcesoria lutownicze
-\item Części elektroniczne: wzmacniacze, elementy RLC, przetworniki ADC, mikroprocesory
-\item Filament do drukarki 3D
-\item Moduł łączności sieciowej
-\item Host serwera
-\end{itemize}
-
-Elementy zostaną zakupione przez członków projektu.
-
-\section{Przydział zadań}
-\begin{table}[!ht]
-\centering
-\begin{tabular}{|c|c|}
-\hline 
-Osoba  & Zadania \\ 
-\hline 
-Mateusz Otto & z5, z6, z10 \\ 
-\hline 
-Michał Wieczorek & z4, z5, z6, z10 \\ 
-\hline 
-Rafał Różycki & z4, z7, z8  \\ 
-\hline 
-Amadeusz Wach & z9, z12 \\ 
-\hline 
-Wspólnie & z1, z2, z3, z11 \\
-\hline
-\end{tabular} 
-\caption{Podział zadań}
-\end{table}
-
-\subsection{Zespół projektowy}
-\paragraph{Michał Wieczorek} - \textbf{lider}, odpowiedzialny za:
-\begin{itemize}
-\item Projekt konstrukcyjny stacji meteorologicznej
-\item Tworzenie konstrukcji
-\item Montaż konstrukcji stacji
-\item Schemat elektroniczny i projekt płytki
-\end{itemize}
-\paragraph{Mateusz Otto} odpowiedzialny za: 
-\begin{itemize}
-\item Projekt konstrukcyjny stacji meteorologicznej
-\item Tworzenie konstrukcji
-\item Montaż konstrukcji stacji
-\end{itemize}
-\paragraph{Rafał Różycki} odpowiedzialny za: 
-\begin{itemize}
-\item Schemat elektroniczny i projekt płytki
-\item Wytrawianie płytki
-\item Montaż elementów elektronicznych na płytce
-\end{itemize}
-\paragraph{Amadeusz Wach} odpowiedzialny za:
-\begin{itemize}
-\item Oprogramowanie czujnika
-\item Utworzenie strony internetowej i akwizycja danych
-\end{itemize}
-
-\section{Zarządzanie projektem}
-Liderem projektu będzie Michał Wieczorek - pomysłodawca i inicjator projektu. Członkowie projektu są zobowiązani do realizowania wyznaczonych im zadań oraz systematycznej pracy. Jakiekolwiek napotkane problemy będą rozwiązywane wspólnie. Kontrola projektu będzie się odbywała przez githuba.
- 
+\section{Kontynuacja projektu?}
+Co zamierzamy zrobić w najbliższym czasie.
 
 \end{document}
