@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.17)  17 JUN 2017 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.17)  17 JUN 2017 10:44
 entering extended mode
 **./spr.tex
 (spr.tex
@@ -1269,25 +1269,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--55
  []
 
 [2 <./figures/ampl_faz.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+<figures/stmstudio.png, id=37, 1927.2pt x 1084.05pt>
+File: figures/stmstudio.png Graphic file (type png)
+
+<use figures/stmstudio.png>
+Package pdftex.def Info: figures/stmstudio.png used on input line 61.
+(pdftex.def)             Requested size: 421.3982pt x 237.0361pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--64
 
  []
 
-[3 <./figures/plytka.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
+[3 <./figures/plytka.png> <./figures/stmstudio.png>] [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (spr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `spr.out' has not changed.
 (rerunfilecheck)             Checksum: 39149567CAC8506B61D523EC4EB45048;170.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 29429 strings out of 493328
- 681469 string characters out of 3139121
+ 29436 strings out of 493328
+ 681607 string characters out of 3139121
  839343 words of memory out of 3000000
- 32462 multiletter control sequences out of 15000+200000
+ 32466 multiletter control sequences out of 15000+200000
  14488 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,7n,96p,1540b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1297,9 +1304,9 @@ n\ec\dpi600\ecrm1200.pk> <C:\Users\Michal\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
 our\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Michal\AppData\Local\MiKTeX\2.9\f
 onts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Michal\AppData\Local\M
 iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk>
-Output written on spr.pdf (3 pages, 2463660 bytes).
+Output written on spr.pdf (4 pages, 2555369 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 47 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 223 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 
