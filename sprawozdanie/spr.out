@@ -1,3 +1,8 @@
 \BOOKMARK [1][-]{section.1}{Opis projektu}{}% 1
-\BOOKMARK [1][-]{section.2}{Zrealizowane zadania i testy}{}% 2
-\BOOKMARK [1][-]{section.3}{Kontynuacja projektu?}{}% 3
+\BOOKMARK [1][-]{section.2}{Zrealizowane zadania i przeprowadzone testy}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Schemat prototypu uk\233adu filtr\363w i wzmacniaczy skonstruowany w programie LTSpice}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Skonstruowanie prototypu uk\233adu}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Skonstruowanie anten kierunkowych}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Testy uk\233adu z wyjsciem pod\233aczonym do oscyloskopu}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{Pr\363bkowanie sygna\233u analogowego za pomoca mikrokontrolera STM32 Nucleo}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Kontynuacja projektu}{}% 8
