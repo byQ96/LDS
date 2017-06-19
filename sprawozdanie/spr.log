@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.17)  17 JUN 2017 13:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.17)  19 JUN 2017 21:02
 entering extended mode
 **./spr.tex
 (spr.tex
@@ -1268,34 +1268,55 @@ File: figures/ampl_faz.png Graphic file (type png)
 Package pdftex.def Info: figures/ampl_faz.png used on input line 53.
 (pdftex.def)             Requested size: 443.57848pt x 201.79362pt.
  [2 <./figures/schemat1.png>]
-<figures/plytka.png, id=59, 963.6pt x 542.025pt>
+<figures/plytka.png, id=59, 897.85437pt x 673.51625pt>
 File: figures/plytka.png Graphic file (type png)
- <use figures/plytka.png>
-Package pdftex.def Info: figures/plytka.png used on input line 61.
-(pdftex.def)             Requested size: 421.3982pt x 237.0361pt.
 
-[3 <./figures/schemat2.png> <./figures/ampl_faz.png>]
-<figures/stmstudio.png, id=68, 1927.2pt x 1084.05pt>
+<use figures/plytka.png>
+Package pdftex.def Info: figures/plytka.png used on input line 61.
+(pdftex.def)             Requested size: 421.3982pt x 316.1005pt.
+ [3 <./figures/schemat2.png> <./figures/ampl_faz.png>]
+<figures/ukladantena.png, id=68, 897.85437pt x 673.51625pt>
+File: figures/ukladantena.png Graphic file (type png)
+
+<use figures/ukladantena.png>
+Package pdftex.def Info: figures/ukladantena.png used on input line 69.
+(pdftex.def)             Requested size: 421.3982pt x 316.1005pt.
+ [4 <./figures/plytka.png>]
+<figures/oscyloskop.png, id=75, 374.5995pt x 360.1455pt>
+File: figures/oscyloskop.png Graphic file (type png)
+
+<use figures/oscyloskop.png>
+Package pdftex.def Info: figures/oscyloskop.png used on input line 77.
+(pdftex.def)             Requested size: 421.3982pt x 405.1407pt.
+ [5 <./figures/ukladantena.png>]
+<figures/uklad.png, id=82, 642.4pt x 361.35pt>
+File: figures/uklad.png Graphic file (type png)
+ <use figures/uklad.png>
+Package pdftex.def Info: figures/uklad.png used on input line 85.
+(pdftex.def)             Requested size: 421.3982pt x 237.04163pt.
+
+<figures/stmstudio.png, id=83, 1927.2pt x 1084.05pt>
 File: figures/stmstudio.png Graphic file (type png)
 
 <use figures/stmstudio.png>
-Package pdftex.def Info: figures/stmstudio.png used on input line 77.
+Package pdftex.def Info: figures/stmstudio.png used on input line 91.
 (pdftex.def)             Requested size: 421.3982pt x 237.0361pt.
- [4 <./figures/plytka.png>] [5 <./figures/stmstudio.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
+ [6 <./figures/oscyloskop.png>] [7 <./figures/uklad.png> <./figures/stmstudio.p
+ng>] [8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
  (spr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `spr.out' has not changed.
 (rerunfilecheck)             Checksum: 87D999062F8063509902F466C70E07AF;719.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 29467 strings out of 493328
- 682141 string characters out of 3139121
+ 29487 strings out of 493328
+ 682535 string characters out of 3139121
  839343 words of memory out of 3000000
- 32486 multiletter control sequences out of 15000+200000
+ 32497 multiletter control sequences out of 15000+200000
  15263 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,96p,1542b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1306,9 +1327,9 @@ our\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Michal\AppData\Local\MiKTeX\2.9\f
 onts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Michal\AppData\Local\M
 iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Michal\AppD
 ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk>
-Output written on spr.pdf (5 pages, 2623387 bytes).
+Output written on spr.pdf (8 pages, 10958238 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
