@@ -23,6 +23,8 @@
 \usepackage{natbib}
 \usepackage{rotating}
 \usepackage{float}
+\usepackage{pdfpages}
+\usepackage{pdflscape}
 
 \title{\textbf{Sprawozdanie - stacja do wykrywania wyładowań atmosferycznych}\\KN EKSA}
 \author{Michał Wieczorek {226284}\\ Amadeusz Wach {226379}\\ Rafał Różycki {226367} \\ Mateusz Otto {226312}}
@@ -92,8 +94,10 @@
 \caption{STMStudio - obserwacja sygnału na wyjściu układu}
 \end{center}
 \end{figure}
-\ -zdjęcie i podpis Schemat połączeń do mikrokontrolera STM32 Nucleo (?)\\
-(Amadeo tu wrzuć, najlepiej pdf na całą stronę)
+\begin{landscape}
+\centering
+\includepdf[angle=90]{figures/schematcal.pdf}
+\end{landscape}
 
 \section{Kontynuacja projektu}
 \ Spełnione zostały podstawowe założenia przedstawionego projektu, skonstruowano działający odbiornik poprawnie wykrywający wyładowania atmosferyczne i uniezależniono go od urządzeń laboratoryjnych (oscyloskop) za pomocą przetwornika ADC zawartego w mikrokontrolerze STM32 Nucleo. Następnym celem jest ulepszenie zestawu filtrów zawartych w układzie i praca nad modułem GPS, który odpowiedzialny będzie za zebranie informacji o bardzo dokładnym czasie wykrycia sygnału. W przyszłości zwieńczeniem projektu będzie konstrukcja kolejnych odbiorników i utworzenie sieci umożliwiającej naniesienie dokładnej lokalizacji wystąpienia na mapę. 

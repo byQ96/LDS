@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.17)  19 JUN 2017 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.17)  20 JUN 2017 08:18
 entering extended mode
 **./spr.tex
 (spr.tex
@@ -1094,39 +1094,78 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box42
 \@float@everytoks=\toks39
 \@floatcapt=\box43
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2017/06/14 v0.5i Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count152
+\calc@Bcount=\count153
+\calc@Adimen=\dimen264
+\calc@Bdimen=\dimen265
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count154
+\calc@Cskip=\skip59
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+)
+\AM@pagewidth=\dimen266
+\AM@pageheight=\dimen267
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/06/14 v0.5i Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box44
+\AM@global@opts=\toks40
+\AM@toc@title=\toks41
+\c@AM@survey=\count155
+\AM@templatesizebox=\box45
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (spr.aux)
 \openout1 = `spr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count152
-\scratchdimen=\dimen264
-\scratchbox=\box44
-\nofMPsegments=\count153
-\nofMParguments=\count154
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count155
-\MPscratchDim=\dimen265
-\MPnumerator=\count156
-\makeMPintoPDFobject=\count157
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count156
+\scratchdimen=\dimen268
+\scratchbox=\box46
+\nofMPsegments=\count157
+\nofMParguments=\count158
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count159
+\MPscratchDim=\dimen269
+\MPnumerator=\count160
+\makeMPintoPDFobject=\count161
+\everyMPtoPDFconversion=\toks43
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1187,60 +1226,60 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 31.
+ on input line 33.
 
-\c@lstlisting=\count158
-\AtBeginShipoutBox=\box45
-Package hyperref Info: Link coloring OFF on input line 31.
+\c@lstlisting=\count162
+\AtBeginShipoutBox=\box47
+Package hyperref Info: Link coloring OFF on input line 33.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count159
+\c@section@level=\count163
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (spr.out) (spr.out)
 \@outlinefile=\write4
 \openout4 = `spr.out'.
 
-LaTeX Font Info:    Try loading font information for OML+plm on input line 33.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 35.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omlplm.fd"
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 35.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omsplsy.fd"
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 33.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 35.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omxplex.fd"
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <14.4> on input line 33.
+(Font)              <14.4> on input line 35.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 33.
+(Font)              <10> on input line 35.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 33.
-LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+(Font)              <7> on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 33.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 33.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 35.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1251,74 +1290,114 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 File: figures/schemat1.png Graphic file (type png)
 
 <use figures/schemat1.png>
-Package pdftex.def Info: figures/schemat1.png used on input line 41.
+Package pdftex.def Info: figures/schemat1.png used on input line 43.
 (pdftex.def)             Requested size: 443.57848pt x 228.75899pt.
 
 <figures/schemat2.png, id=49, 1349.04pt x 771.88374pt>
 File: figures/schemat2.png Graphic file (type png)
 
 <use figures/schemat2.png>
-Package pdftex.def Info: figures/schemat2.png used on input line 47.
+Package pdftex.def Info: figures/schemat2.png used on input line 49.
 (pdftex.def)             Requested size: 443.57848pt x 253.80374pt.
 
 <figures/ampl_faz.png, id=50, 1915.155pt x 871.255pt>
 File: figures/ampl_faz.png Graphic file (type png)
 
 <use figures/ampl_faz.png>
-Package pdftex.def Info: figures/ampl_faz.png used on input line 53.
+Package pdftex.def Info: figures/ampl_faz.png used on input line 55.
 (pdftex.def)             Requested size: 443.57848pt x 201.79362pt.
  [2 <./figures/schemat1.png>]
 <figures/plytka.png, id=59, 897.85437pt x 673.51625pt>
 File: figures/plytka.png Graphic file (type png)
 
 <use figures/plytka.png>
-Package pdftex.def Info: figures/plytka.png used on input line 61.
+Package pdftex.def Info: figures/plytka.png used on input line 63.
 (pdftex.def)             Requested size: 421.3982pt x 316.1005pt.
  [3 <./figures/schemat2.png> <./figures/ampl_faz.png>]
 <figures/ukladantena.png, id=68, 897.85437pt x 673.51625pt>
 File: figures/ukladantena.png Graphic file (type png)
 
 <use figures/ukladantena.png>
-Package pdftex.def Info: figures/ukladantena.png used on input line 69.
+Package pdftex.def Info: figures/ukladantena.png used on input line 71.
 (pdftex.def)             Requested size: 421.3982pt x 316.1005pt.
  [4 <./figures/plytka.png>]
 <figures/oscyloskop.png, id=75, 374.5995pt x 360.1455pt>
 File: figures/oscyloskop.png Graphic file (type png)
 
 <use figures/oscyloskop.png>
-Package pdftex.def Info: figures/oscyloskop.png used on input line 77.
+Package pdftex.def Info: figures/oscyloskop.png used on input line 79.
 (pdftex.def)             Requested size: 421.3982pt x 405.1407pt.
  [5 <./figures/ukladantena.png>]
 <figures/uklad.png, id=82, 642.4pt x 361.35pt>
 File: figures/uklad.png Graphic file (type png)
  <use figures/uklad.png>
-Package pdftex.def Info: figures/uklad.png used on input line 85.
+Package pdftex.def Info: figures/uklad.png used on input line 87.
 (pdftex.def)             Requested size: 421.3982pt x 237.04163pt.
 
 <figures/stm.png, id=83, 963.6pt x 542.025pt>
 File: figures/stm.png Graphic file (type png)
  <use figures/stm.png>
-Package pdftex.def Info: figures/stm.png used on input line 91.
+Package pdftex.def Info: figures/stm.png used on input line 93.
 (pdftex.def)             Requested size: 421.3982pt x 237.0361pt.
- [6 <./figures/oscyloskop.png>] [7 <./figures/uklad.png> <./figures/stm.png>] [
-8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
- (spr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+ [6 <./figures/oscyloskop.png>] [7 <./figures/uklad.png> <./figures/stm.png>]
+<figures/schematcal.pdf, id=97, 845.1575pt x 598.235pt>
+File: figures/schematcal.pdf Graphic file (type pdf)
+
+<use figures/schematcal.pdf>
+Package pdftex.def Info: figures/schematcal.pdf used on input line 99.
+(pdftex.def)             Requested size: 845.15544pt x 598.23354pt.
+File: figures/schematcal.pdf Graphic file (type pdf)
+ <use figures/schematcal.pdf>
+Package pdftex.def Info: figures/schematcal.pdf used on input line 99.
+(pdftex.def)             Requested size: 845.15544pt x 598.23354pt.
+
+<figures/schematcal.pdf, id=100, page=1, 845.1575pt x 598.235pt>
+File: figures/schematcal.pdf Graphic file (type pdf)
+
+<use figures/schematcal.pdf, page 1>
+Package pdftex.def Info: figures/schematcal.pdf, page1 used on input line 99.
+(pdftex.def)             Requested size: 845.15544pt x 598.23354pt.
+File: figures/schematcal.pdf Graphic file (type pdf)
+ <use figures/schematcal.pdf, page 1>
+Package pdftex.def Info: figures/schematcal.pdf, page1 used on input line 99.
+(pdftex.def)             Requested size: 845.15544pt x 598.23354pt.
+File: figures/schematcal.pdf Graphic file (type pdf)
+
+<use figures/schematcal.pdf, page 1>
+Package pdftex.def Info: figures/schematcal.pdf, page1 used on input line 99.
+(pdftex.def)             Requested size: 845.15544pt x 598.23354pt.
+File: figures/schematcal.pdf Graphic file (type pdf)
+ <use figures/schematcal.pdf, page 1>
+Package pdftex.def Info: figures/schematcal.pdf, page1 used on input line 99.
+(pdftex.def)             Requested size: 845.15544pt x 598.23354pt.
+File: figures/schematcal.pdf Graphic file (type pdf)
+
+<use figures/schematcal.pdf, page 1>
+Package pdftex.def Info: figures/schematcal.pdf, page1 used on input line 99.
+(pdftex.def)             Requested size: 845.15544pt x 598.23354pt.
+ [8
+
+ <./figures/schematcal.pdf>] [9
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+
+(spr.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `spr.out' has not changed.
 (rerunfilecheck)             Checksum: 87D999062F8063509902F466C70E07AF;719.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
- 29487 strings out of 493328
- 682505 string characters out of 3139121
- 839343 words of memory out of 3000000
- 32497 multiletter control sequences out of 15000+200000
+ 30186 strings out of 493328
+ 693847 string characters out of 3139121
+ 852731 words of memory out of 3000000
+ 33171 multiletter control sequences out of 15000+200000
  15263 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,96p,1542b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,20n,96p,1542b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Michal\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecbx1440.pk> <C:\Users\Michal\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\ecbx1728.pk> <C:\Users\Michal\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
@@ -1326,9 +1405,9 @@ our\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Michal\AppData\Local\MiKTeX\2.9\f
 onts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Michal\AppData\Local\M
 iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Michal\AppD
 ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk>
-Output written on spr.pdf (8 pages, 11121859 bytes).
+Output written on spr.pdf (9 pages, 11252403 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
