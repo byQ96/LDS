@@ -4,9 +4,9 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/Users/Michal/Desktop/program/BURZA/Src/main.c \
-C:/Users/Michal/Desktop/program/BURZA/Src/stm32f4xx_hal_msp.c \
-C:/Users/Michal/Desktop/program/BURZA/Src/stm32f4xx_it.c 
+C:/Users/Michal/Documents/GitHub/LDS/program/Src/main.c \
+C:/Users/Michal/Documents/GitHub/LDS/program/Src/stm32f4xx_hal_msp.c \
+C:/Users/Michal/Documents/GitHub/LDS/program/Src/stm32f4xx_it.c 
 
 OBJS += \
 ./Application/User/main.o \
@@ -20,27 +20,27 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Application/User/main.o: C:/Users/Michal/Desktop/program/BURZA/Src/main.c
+Application/User/main.o: C:/Users/Michal/Documents/GitHub/LDS/program/Src/main.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F411xE -I"C:/Users/Michal/Desktop/program/BURZA/Inc" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/CMSIS/Include" -I"C:/Users/Michal/Desktop/program/BURZA/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F411xE -I"C:/Users/Michal/Documents/GitHub/LDS/program/Inc" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/CMSIS/Include" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Application/User/stm32f4xx_hal_msp.o: C:/Users/Michal/Desktop/program/BURZA/Src/stm32f4xx_hal_msp.c
+Application/User/stm32f4xx_hal_msp.o: C:/Users/Michal/Documents/GitHub/LDS/program/Src/stm32f4xx_hal_msp.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F411xE -I"C:/Users/Michal/Desktop/program/BURZA/Inc" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/CMSIS/Include" -I"C:/Users/Michal/Desktop/program/BURZA/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F411xE -I"C:/Users/Michal/Documents/GitHub/LDS/program/Inc" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/CMSIS/Include" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Application/User/stm32f4xx_it.o: C:/Users/Michal/Desktop/program/BURZA/Src/stm32f4xx_it.c
+Application/User/stm32f4xx_it.o: C:/Users/Michal/Documents/GitHub/LDS/program/Src/stm32f4xx_it.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F411xE -I"C:/Users/Michal/Desktop/program/BURZA/Inc" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Michal/Desktop/program/BURZA/Drivers/CMSIS/Include" -I"C:/Users/Michal/Desktop/program/BURZA/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F411xE -I"C:/Users/Michal/Documents/GitHub/LDS/program/Inc" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Drivers/CMSIS/Include" -I"C:/Users/Michal/Documents/GitHub/LDS/program/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/Michal/Desktop/program/BURZA/Inc
+HeaderPath=C:/Users/Michal/Documents/GitHub/LDS/program/Inc
 HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
-SourcePath=C:/Users/Michal/Desktop/program/BURZA/Src
+SourcePath=C:/Users/Michal/Documents/GitHub/LDS/program/Src
 SourceFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]
